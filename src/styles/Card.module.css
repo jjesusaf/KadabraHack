@@ -1,0 +1,213 @@
+.cardContent {
+  width: 100%;
+  max-width: 534px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 60px;
+  background-color: #1C1D21;
+  box-shadow: 0px 3px 50px rgba(59, 115, 79, 0.16);
+  border-radius: 16px;
+  border-radius: 20px;
+}
+
+.cardTitle {
+  width: 100%;
+  max-width: 82px;
+  height: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 18px;
+  text-align: center;
+  color: #333333;
+}
+
+.about {
+  width: 100%;
+  max-width: 475px;
+  height: 100%s;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28px;
+  margin-bottom: 40px;
+  background-color: #F0F0F0;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.aboutTitle {
+  background: linear-gradient(84.21deg, #6684F9 31.64%, #E3A2D8 97.7%, #FFB989 139.87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.aboutText {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.price {
+  background-color: #F0F0F0;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  border-style: none;
+}
+
+.objective {
+  background-color: #F0F0F0;
+  border-radius: 20px;
+  margin-bottom: 40px;
+  border-style: none;
+}
+
+.action {
+  width: 100%;
+  max-width: 380px;
+  height: 48px;
+  margin-top: 30px;
+  margin-bottom: 35px;
+  text-align: center;
+  background: black;
+  border: 1px solid #F9F9F9;
+  border-radius: 10px;
+}
+
+.registry {
+  width: 100%;
+  max-width: 475px;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 28px;
+  margin-bottom: 40px;
+  background-color: #1C1D21;
+  border-radius: 20px;
+  border-style: none;
+}
+
+.descText {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 41px;
+  color: white;
+}
+
+.bsBadge {
+  width: 100%;
+  max-width: 160px;
+  height: 100%;
+  background: #F0F0F0;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.buksButton>div>button {
+  height: 54px;
+  width: 100%;
+  max-width: 380px;
+  text-align: center !important;
+}
+
+.approveButton {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 11px 43px;
+  gap: 10px;
+  width: 285px;
+  height: 46px;
+
+  /* Main/Gradient */
+
+  background: linear-gradient(88.09deg, #6687F9 27.51%, #E3A2D8 93.71%, #FFB989 104.08%);
+  border-radius: 14px;
+}
+
+.approveButton:hover {
+  background: linear-gradient(84.21deg, #6684F9 31.64%, #E3A2D8 97.7%, #FFB989 139.87%);
+  border: 1px solid;
+}
+
+.borderGradientPurple>div>button {
+  border-image: linear-gradient(84.21deg, #6684F9 31.64%, #E3A2D8 97.7%, #FFB989 139.87%) !important;
+  border-width: 3px !important;
+  border-style: solid !important;
+  border-image-slice: 1 !important;
+}
+
+.bsBadge>p,
+.descText>span {
+  background: linear-gradient(84.21deg, #6684F9 31.64%, #E3A2D8 97.7%, #FFB989 139.87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.formcard1 {
+  width: 380px;
+}
+
+.cardBody2 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-around;
+  text-align: center;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  padding: 1rem;
+  /* margin: 1rem; */
+  align-items: center;
+
+}
+
+.textBody {}
+
+@media (max-width: 628px) {
+  .cardBody1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0;
+
+  }
+
+  .cardTT1 {
+    width: 100%;
+  }
+
+  .aboutText {
+    text-align: center;
+  }
+
+  .aboutTitle {
+    text-align: center;
+  }
+
+  .descText {
+    text-align: center;
+  }
+
+  .formcard1 {
+    width: 250px;
+  }
+
+  .cardBody2 {
+    flex-direction: column;
+  }
+
+}

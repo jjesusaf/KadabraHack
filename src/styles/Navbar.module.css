@@ -1,0 +1,104 @@
+.navBucks {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: .5rem;
+}
+
+.btnFlat {
+  background-color: #F0F0F0;
+  color: #333333;
+  border: 0px none transparent;
+}
+
+.custom>div {
+  height: 48px;
+}
+
+.world {
+  background: linear-gradient(84.21deg, #6684F9 31.64%, #E3A2D8 97.7%, #FFB989 139.87%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.footer1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.menuNav {
+  display: none;
+}
+
+.centerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  background: #1C1D21;
+  box-shadow: 0px 3px 5px #3d3c3c;
+  border-radius: 8px;
+  list-style: none;
+  gap: 4rem;
+  padding: .5rem;
+  color: white;
+}
+
+
+.navBuckss {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+
+}
+
+
+@media (max-width: 628px) {
+  .navBuckss{
+    width: 100%;
+    display: flex;
+    gap: 1rem;
+    position: absolute;
+    top: 71px;
+    height: 100vh;
+    background-color: whitesmoke;
+    z-index: 100;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+
+  }
+
+  .footer1 {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem rem;
+    text-align: center;
+  }
+
+  .menuNav {
+    display: flex;
+  }
+
+  .menuNavbar {
+    display: flex;
+  }
+
+  .centerNav {
+    flex-direction: column;
+    margin: 2rem;
+    justify-content: space-evenly;
+  }
+
+  .navBuckss2{
+    display: none;
+  }
+
+
+}
